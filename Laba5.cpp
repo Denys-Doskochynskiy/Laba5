@@ -53,7 +53,6 @@ public:
 			k += 1; j += 1;
 		}
 
-		// copy temp to original interval
 		for (columns = start; columns <= end; columns += 1) {
 			this->Array[columns] = temp[columns - start];
 		}
